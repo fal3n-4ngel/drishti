@@ -4,11 +4,8 @@ Drishti is a software created as a project for Define hack 2022.
 This app aims to make reporting and spreading the news of accidents and dangers easier and effective. 
 
 ## The Problem
-   Accidents due to stepping on snapped power cables etc and getting common nowadays ,especially during the rainy days. Drisjti offers a simple yet elegant way to solve this problem and much more.
-   <details align="center">
-  <summary>Detailed story of the orgin of the statement</summary>
-  <p> thestory of the auto uncle ig..</p>
-  </details>
+   Accidents due to stepping on snapped power cables etc and getting common nowadays ,especially during the rainy days. Drishti offers a simple yet elegant way to solve this problem and much more.
+   
   
 
 ## The solution
