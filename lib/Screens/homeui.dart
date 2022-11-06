@@ -11,6 +11,7 @@ class homeui extends StatefulWidget {
 }
 
 class _homeui extends State<homeui> {
+  Image image3 = Image.asset('assets/img.jpg');
   List<int> idd1 = [0, 1];
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -47,7 +48,15 @@ class _homeui extends State<homeui> {
               ),
               elevation: 10,
               child: Container(
-                  height: height / 4, width: width - 30, child: Text(""))),
+                height: height / 4,
+                width: width - 30,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage('assets/img.jpg'),
+                    fit: BoxFit.fill,
+                  ),
+                ),
+              )),
           AnimatedContainer(
               padding: EdgeInsets.only(left: 20, right: 10),
               duration: Duration(seconds: 2),
@@ -83,7 +92,7 @@ class _homeui extends State<homeui> {
 
                   SizedBox(
                     //   %%%% The List View
-                    height: 280,
+                    height: 250,
                     child: ListView(
                       children: idd1.map((strone) {
                         return card1(strone);
@@ -107,17 +116,18 @@ class _homeui extends State<homeui> {
                 style: TextStyle(
                     color: Color.fromRGBO(0, 0, 0, 1),
                     fontFamily: 'Comfortaa',
-                    fontSize: 18,
+                    fontSize: 16,
                     letterSpacing: 0,
                     fontWeight: FontWeight.normal,
                     height: 1),
-              )),
+              ))
         ],
       ),
     );
   }
 
-  Widget det() {
+  Widget det(i) {
+    MongoDatabase.fetch();
     // Data for expand.
     return Column(
       children: [
@@ -234,6 +244,9 @@ class _homeui extends State<homeui> {
                         height: 1),
                   ),
                 ),
+                const SizedBox(
+                  width: 40,
+                ),
                 Container(
                   padding: EdgeInsets.only(top: 10),
                   child: TextButton(
@@ -254,7 +267,7 @@ class _homeui extends State<homeui> {
                 )
               ],
             ),
-            expanded ? det() : none()
+            expanded ? det(i) : none()
           ])),
     );
   }

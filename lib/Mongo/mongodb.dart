@@ -34,6 +34,5 @@ class MongoDatabase {
     await db.open();
     var collection = db.collection(COLLECTION_NAME);
     data = await collection.find().toList();
-    return data;
   }
 }

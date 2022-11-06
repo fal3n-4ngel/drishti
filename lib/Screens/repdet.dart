@@ -76,13 +76,13 @@ class _repdataui extends State<repdataui> {
   List<int> idd = [0, 1, 2];
 
   Widget Listnotif(var i) {
-    late var data1 = data[i];
-    late var loc = data[i]["location"];
-    late var fac = data[i]["faculty"];
-    late var grad = data[i]["grade"];
-    late var aler = data[i]["alert"];
-    late var detail = data[i]["details"];
-    late var expanded = false;
+    data1 = data[i];
+    loc = data[i]["location"];
+    fac = data[i]["faculty"];
+    grad = data[i]["grade"];
+    aler = data[i]["alert"];
+    detail = data[i]["details"];
+    var expanded = false;
     return Card(
       color: Color.fromARGB(128, 243, 243, 243),
       shape: RoundedRectangleBorder(

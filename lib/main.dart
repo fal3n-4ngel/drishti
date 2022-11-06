@@ -3,6 +3,7 @@ import 'package:drishti/Screens/homeui.dart';
 import 'package:drishti/Mongo/mongodb.dart';
 import 'package:drishti/Screens/reportui.dart';
 import 'package:drishti/Screens/signin.dart';
+import 'package:drishti/Screens/contact.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,13 +16,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var use = true;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Drishti',
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      home: const MyHomePage(title: 'Drishti'),
+      home: Signup(),
     );
   }
 }
@@ -42,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   int selectedPage = 0;
-  final _pageOptions = [homeui(), reportui(), Signup()];
+  final _pageOptions = [homeui(), reportui(), contactui()];
 
   @override
   Widget build(BuildContext context) {
