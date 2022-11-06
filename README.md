@@ -2,7 +2,10 @@
 
 Drishti is a software created as a project for Define hack 2022.
 This app aims to make reporting and spreading the news of accidents and dangers easier and effective. 
-
+## All repo links
+- [Web Front-End](https://github.com/Liya-Susan/Drishti/)
+- [Android](https://github.com/fal3n-4ngel/drishti)
+- [Web Back-End](https://github.com/Liya-Susan/Drishti_backend)
 ## The Problem
    Accidents due to stepping on snapped power cables etc and getting common nowadays ,especially during the rainy days. Drishti offers a simple yet elegant way to solve this problem and much more.
    
@@ -31,9 +34,8 @@ This app aims to make reporting and spreading the news of accidents and dangers 
 Abhishek Raman R - Front End Developer   [ Android ]
 Aditya Krishnan - Full Stack Developer   [ Android ]
 Christina Mathhews - Front End Designer  [ Web]
-Ferwin Lopez - UI/UX Designer        [ Android/Web]
-Liya Susan Biju - Full Stack developer [Web]
+Ferwin Lopez - UI/UX Designer            [ Android/Web]
+Liya Susan Biju - Full Stack developer   [Web]
 
 ```
  
-
