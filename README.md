@@ -28,11 +28,11 @@ This app aims to make reporting and spreading the news of accidents and dangers 
 
 # Friendly Neighborhood Tekys
 
-Aditya Krishnan - Full Stack Developer for Android
-Abhishek Raman R - Front End Developer for Android
-Christina Mathhews - Front End Designer for Android
-Ferwin Lopez - UI/UX Designer for Android App and Website
-Liya Susan Biju -Full Stack developer 
+Abhishek Raman R - Front End Developer   [ Android ]
+Aditya Krishnan - Full Stack Developer   [ Android ]
+Christina Mathhews - Front End Designer  [ Web]
+Ferwin Lopez - UI/UX Designer        [ Android/Web]
+Liya Susan Biju - Full Stack developer [Web]
 
 ```
  
