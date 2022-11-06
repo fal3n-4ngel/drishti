@@ -19,7 +19,7 @@ This app aims to make reporting and spreading the news of accidents and dangers 
   - The app also notifies every Drishti user in your locality about Grade 2(midly or highly dangerous) or above reports.
   - you can also now the statu of your reports through our portal.
 
-[Prototype link("https://www.figma.com/proto/iY2avWglgTX1P9ePy54zIr/App?node-id=87%3A97&scaling=min-zoom&page-id=24%3A330&starting-point-node-id=99%3A137")
+[Prototype link(figma)](https://www.figma.com/proto/iY2avWglgTX1P9ePy54zIr/App?node-id=87%3A97&scaling=min-zoom&page-id=24%3A330&starting-point-node-id=99%3A137)
   
 ## Frameworks and ServicesUsed
 [![](https://skillicons.dev/icons?i=flutter,androidstudio,bootstrap,figma,heroku,js,mongodb,react)](https://skillicons.dev)
