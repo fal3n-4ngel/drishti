@@ -21,7 +21,7 @@ This app aims to make reporting and spreading the news of accidents and dangers 
 
 [Prototype link(figma)](https://www.figma.com/proto/iY2avWglgTX1P9ePy54zIr/App?node-id=87%3A97&scaling=min-zoom&page-id=24%3A330&starting-point-node-id=99%3A137)
   
-## Frameworks and ServicesUsed
+## Frameworks and Services Used
 [![](https://skillicons.dev/icons?i=flutter,androidstudio,bootstrap,figma,heroku,js,mongodb,react)](https://skillicons.dev)
 
 
@@ -31,11 +31,11 @@ This app aims to make reporting and spreading the news of accidents and dangers 
 
 # Friendly Neighborhood Tekys
 
-Abhishek Raman R - Front End Developer   [ Android ]
-Aditya Krishnan - Full Stack Developer   [ Android ]
-Christina Mathhews - Front End Designer  [ Web]
-Ferwin Lopez - UI/UX Designer            [ Android/Web]
-Liya Susan Biju - Full Stack developer   [Web]
+Abhishek Raman R     - Front End Developer    [ Android ]
+Aditya Krishnan      - Full Stack Developer   [ Android ]
+Christina Mathhews   - Front End Developer    [ Web]
+Ferwin Lopez         - UI/UX Designer         [Andriod/Web]
+Liya Susan Biju      - Full Stack developer   [Web]
 
 ```
  
