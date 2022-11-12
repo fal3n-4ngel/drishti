@@ -2,7 +2,10 @@
 
 Drishti is a software created as a project for Define hack 2022.
 This app aims to make reporting and spreading the news of accidents and dangers easier and effective. 
+
 ## All repo links
+  ### Find the new vesrions @[Drishti](https://github.com/fal3n-4ngel/Drishti-Client)
+  
 - [Web Front-End](https://github.com/Liya-Susan/Drishti/)
 - [Android](https://github.com/fal3n-4ngel/drishti)
 - [Web Back-End](https://github.com/Liya-Susan/Drishti_backend)
